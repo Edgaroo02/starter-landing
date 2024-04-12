@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const groupBody = group.querySelector('.faq-group-body');
       const icon = groupHeader.querySelector('i');
   
-      
+    
       // Toggle icon
       icon.classList.toggle('fa-plus');
       icon.classList.toggle('fa-minus');
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Toggle visibility of body
       groupBody.classList.toggle('open');
-  
+
 
       // Close other open FAQ bodies
       const otherGroups = faqContainer.querySelectorAll('.faq-group');
